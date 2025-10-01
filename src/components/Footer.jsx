@@ -32,7 +32,7 @@ const Footer = () => {
             </h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               Chhath Puja is an ancient Hindu festival dedicated to the Sun God (Surya) and his consort (Chhathi Maiya). 
-              It's celebrated with great devotion and community spirit across Bengaluru's Bihar community.
+              It's celebrated with great devotion and community spirit across Bengaluru's Jharkhand, Bihar and UP community.
             </p>
           </div>
 
@@ -80,6 +80,11 @@ const Footer = () => {
             <div className="text-center sm:text-right">
               <p className="text-sm text-gray-600 mb-1">
                 Made with <Heart className="h-4 w-4 text-red-500 inline mx-1" /> for the community
+              </p>
+              <p className="text-xs text-gray-500 mb-1">
+                Crafted by <span className="text-marigold-600 font-medium">Vinit Shahdeo</span> 
+                <span className="mx-1">•</span> 
+                <span className="text-saffron-600">छठ माता के आशीर्वाद से</span>
               </p>
               <p className="text-xs text-gray-500">
                 © {currentYear} • Please verify details with organizers

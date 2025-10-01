@@ -6,6 +6,7 @@ import FilterSection from './components/FilterSection'
 import EventsList from './components/EventsList'
 import Footer from './components/Footer'
 import EmptyState from './components/EmptyState'
+import BackgroundMusic from './components/BackgroundMusic'
 import { generateEventJsonLd } from './utils/jsonLd'
 
 function App() {
@@ -183,6 +184,9 @@ function App() {
       </main>
       
       <Footer />
+      
+      {/* Background Music */}
+      <BackgroundMusic />
     </div>
   )
 }

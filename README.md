@@ -10,6 +10,7 @@ A responsive, mobile-first website that helps the community find Chhath Puja cel
 - **📍 Area-based Filtering**: Multi-select area filters with chip-based UI
 - **🗺️ Google Maps Integration**: Direct links to event locations
 - **📱 Mobile-First Design**: Optimized for phones with sticky filters and large tap targets
+- **🎵 Background Music**: Traditional Chhath Puja tunes with floating player controls
 - **♿ Accessibility First**: ARIA labels, focus states, high contrast support
 - **🚀 Performance Optimized**: Lighthouse score ≥90, lazy loading, semantic HTML
 - **🔗 SEO & Sharing**: JSON-LD structured data, Open Graph tags, shareable filter URLs
@@ -105,7 +106,12 @@ Events are loaded from `public/events.csv` with these columns:
    - Search location on Google Maps
    - Copy shareable link or use format: `https://maps.google.com/?q=VENUE+AREA+Bangalore`
 
-3. **Redeploy**:
+3. **Add Background Music** (Optional):
+   - Replace `public/tune.mp3` with your Chhath Puja audio file
+   - See `MUSIC_SETUP.md` for detailed instructions
+   - Recommended: Traditional devotional songs under 5MB
+
+4. **Redeploy**:
    - Commit changes to Git
    - Deploy will automatically refresh with new events
 
