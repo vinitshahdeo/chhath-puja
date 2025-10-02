@@ -4,10 +4,13 @@
 
 A responsive, mobile-first website that helps the community find Chhath Puja celebrations across Bengaluru. Built with festive aesthetics featuring sunrise gradients, marigold colors, and traditional motifs.
 
+👉 **[Submit Your Celebration](https://forms.gle/RDoXHfEvTTwQRpin7)**
+
 ![Chhath Puja Bengaluru](https://img.shields.io/badge/Festival-Chhath%20Puja-orange) ![Tech Stack](https://img.shields.io/badge/Tech-React%20%7C%20Vite%20%7C%20Tailwind-blue) ![Mobile First](https://img.shields.io/badge/Design-Mobile%20First-green)
 
-This is dedicated for all of us far from home in Bengaluru—a bittersweet reminder of devotion, family bonds, the comfort of [Sharda Sinha’s songs](https://youtu.be/6DePUrUWtmE?list=RD6DePUrUWtmE&t=57), and the deep-rooted traditions that bind us. Just show up at the Ghat, let the echoes of “[Ugha He Suruj Dev](https://youtu.be/6e6Hp6R5SVU?list=RD6e6Hp6R5SVU&t=47)” feel like home, and savor the taste of Thekua. This is where we find our roots and each other, even thousands of miles away.
+## A Call From Home
 
+This is dedicated for all of us far from home in Bengaluru—a bittersweet reminder of devotion, family bonds, the comfort of [Sharda Sinha’s songs](https://youtu.be/6DePUrUWtmE?list=RD6DePUrUWtmE&t=57), and the deep-rooted traditions that bind us. Just show up at the Ghat, let the echoes of “[Ugha He Suruj Dev](https://youtu.be/6e6Hp6R5SVU?list=RD6e6Hp6R5SVU&t=47)” feel like home, and savor the taste of Thekua. This is where we find our roots and each other, even thousands of miles away.
 
 ## 🚀 Getting Started
 
@@ -63,13 +66,11 @@ Events are loaded from `public/events.csv` with these columns:
 6,Indiranagar Community Chhath,Indiranagar,HAL Park,HAL Airport Road Park Near CMH Road,https://maps.google.com/?q=HAL+Airport+Road+Park+Indiranagar+Bangalore,2025-11-07,05:30,09:00,Kavita Singh,+91-9876543215,Traditional breakfast served. Parking available at nearby mall.
 ```
 
-## 🤝 Contributing
+## 🤝 Submit Your Event
 
-1. Fork the repository
-2. Create a feature branch
-3. Add your events to the CSV
-4. Test the changes locally
-5. Submit a pull request
+Please use [this form](https://forms.gle/RDoXHfEvTTwQRpin7) to submit details about your community's Chhath Puja event (Ghat) in the Bengaluru area. The collected information will be listed on our community website to help people find and join a nearby celebration.
+
+Thank you for helping us bring a piece of home to the city for all of us who couldn't go home.
 
 ## 📄 License
 
