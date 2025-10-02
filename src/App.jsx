@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react'
 import Papa from 'papaparse'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
+import ChhathDates from './components/ChhathDates'
 import FilterSection from './components/FilterSection'
 import EventsList from './components/EventsList'
 import Footer from './components/Footer'
@@ -181,7 +182,10 @@ function App() {
         ) : (
           <EmptyState onClearFilters={clearFilters} />
         )}
+
+        {/* <ChhathDates /> */}
       </main>
+
       
       <Footer />
       

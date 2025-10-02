@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart, Sun } from "lucide-react";
+import { Heart, Sun, Sunset, Sunrise } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -40,18 +40,29 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Community */}
+          {/* Important Timings */}
           <div>
             <h3 className="font-display font-semibold text-lg text-gray-900 mb-3">
-              Community Guidelines
+              Important Timings
             </h3>
-            <ul className="text-gray-600 text-sm space-y-2">
-              <li>• Respect local customs and traditions</li>
-              <li>• Follow environmental guidelines</li>
-              <li>• Participate with devotion and joy</li>
-              <li>• Help maintain cleanliness at venues</li>
-              <li>• Be courteous and offer help</li>
-            </ul>
+            <div className="space-y-4 text-sm">
+              <p className="text-gray-600 text-xs">Four sacred days of devotion, from October 25-28, 2025</p>
+              <div className="flex items-start space-x-3 pb-2 border-b border-gray-200">
+                <Sunset className="h-4 w-4 text-orange-500" />
+                <div>
+                  <p className="font-medium text-gray-800 mb-1">Sandhya Arghya</p>
+                  <p className="text-gray-600 text-xs">Monday, Oct 27 • 5:30-6:00 PM</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-3 pb-2">
+                 <Sunrise className="h-4 w-4 text-yellow-500" />
+                <div>
+                  <p className="font-medium text-gray-800 mb-1">Usha Arghya</p>
+                  <p className="text-gray-600 text-xs">Tuesday, Oct 28 • 6:00-6:30 AM</p>
+                </div>
+              </div>
+              <p className="text-xs text-gray-500 italic pt-2 border-t border-gray-100">*Confirm timings with local organizers</p>
+            </div>
           </div>
 
           {/* Contact */}
