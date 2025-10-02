@@ -39,23 +39,38 @@ function App() {
             // Process and validate data
             const processedEvents = results.data
               .filter(event => event.id && event.name && event.date)
-              .map(event => ({
-                ...event,
-                id: parseInt(event.id),
-                date: new Date(event.date + 'T00:00:00+05:30'), // IST timezone
-                start_time: event.start_time || '06:00',
-                end_time: event.end_time || '09:00',
-              }))
+              .map(event => {
+                const parsedDate = new Date(event.date + 'T00:00:00+05:30')
+                
+                // Skip events with invalid dates
+                if (isNaN(parsedDate.getTime())) {
+                  console.warn(`Skipping event with invalid date: ${event.name} - ${event.date}`)
+                  return null
+                }
+                
+                return {
+                  ...event,
+                  id: parseInt(event.id),
+                  date: parsedDate,
+                  start_time: event.start_time || '06:00',
+                  end_time: event.end_time || '09:00',
+                }
+              })
+              .filter(event => event !== null) // Remove invalid events
               .sort((a, b) => a.date - b.date) // Sort by date
             
             setEvents(processedEvents)
             
-            // Generate JSON-LD for each event
+            // Generate JSON-LD for each event with error handling
             processedEvents.forEach(event => {
-              const script = document.createElement('script')
-              script.type = 'application/ld+json'
-              script.textContent = JSON.stringify(generateEventJsonLd(event))
-              document.head.appendChild(script)
+              try {
+                const script = document.createElement('script')
+                script.type = 'application/ld+json'
+                script.textContent = JSON.stringify(generateEventJsonLd(event))
+                document.head.appendChild(script)
+              } catch (error) {
+                console.warn(`Failed to generate JSON-LD for event: ${event.name}`, error)
+              }
             })
             
             setLoading(false)
