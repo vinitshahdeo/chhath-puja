@@ -40,8 +40,8 @@ const HeroSection = ({ searchTerm, onSearchChange, areas, selectedAreas, onAreaT
         </p>
         
         <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-          Discover community Chhath Puja celebrations across Bangalore. 
-          Connect with local organizers and join the festivities.
+          Discover community Chhath Puja celebrations across Bengaluru. 
+          Connect with local organizers and join the festivities from <strong>October 25-28</strong>, 2025.
         </p>
         
         {/* Search and filters */}
