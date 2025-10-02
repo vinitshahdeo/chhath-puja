@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection'
 import ChhathDates from './components/ChhathDates'
 import FilterSection from './components/FilterSection'
 import EventsList from './components/EventsList'
+import CommunityConnect from './components/CommunityConnect'
 import Footer from './components/Footer'
 import EmptyState from './components/EmptyState'
 import BackgroundMusic from './components/BackgroundMusic'
@@ -201,6 +202,8 @@ function App() {
         {/* <ChhathDates /> */}
       </main>
 
+      {/* Community Connect Section */}
+      <CommunityConnect />
       
       <Footer />
       
