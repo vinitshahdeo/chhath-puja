@@ -50,7 +50,7 @@ const Footer = () => {
               <li>• Follow environmental guidelines</li>
               <li>• Participate with devotion and joy</li>
               <li>• Help maintain cleanliness at venues</li>
-              <li>• Be Courteous and Offer Help</li>
+              <li>• Be courteous and offer help</li>
             </ul>
           </div>
 
