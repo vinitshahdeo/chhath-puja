@@ -1,5 +1,5 @@
 import React from 'react'
-import { Search, Sun } from 'lucide-react'
+import { Sun } from 'lucide-react'
 import SearchInput from './SearchInput'
 import AreaFilters from './AreaFilters'
 
@@ -54,7 +54,7 @@ const HeroSection = ({ searchTerm, onSearchChange, areas, selectedAreas, onAreaT
           
           <div className="flex flex-wrap justify-center gap-2">
             <span className="text-sm font-medium text-gray-700 self-center mb-2 sm:mb-0">
-              Filter by area:
+              Popular areas:
             </span>
             <AreaFilters 
               areas={areas.slice(0, 5)} // Show first 5 areas in hero

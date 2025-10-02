@@ -16,16 +16,8 @@ const FilterSection = ({
   const hasActiveFilters = selectedAreas.length > 0 || searchTerm
 
   return (
-    <div className="sticky top-0 z-40 bg-white border-b border-gray-200 shadow-sm">
+    <div className="bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        {/* Mobile search bar */}
-        <div className="block sm:hidden mb-4">
-          <SearchInput 
-            value={searchTerm}
-            onChange={onSearchChange}
-            placeholder="Search events..."
-          />
-        </div>
         
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
