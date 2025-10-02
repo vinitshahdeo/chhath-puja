@@ -1,0 +1,12 @@
+name: README → index.md
+on:
+  push: { branches: [ main ] }
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cp README.md index.md
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: sync README → index.md"
