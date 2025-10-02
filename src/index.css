@@ -12,6 +12,12 @@
     font-family: 'Inter', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  
+  /* Prevent horizontal scroll */
+  * {
+    box-sizing: border-box;
   }
 }
 

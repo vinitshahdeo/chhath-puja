@@ -171,7 +171,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-sunrise-50">
+    <div className="min-h-screen bg-sunrise-50 overflow-x-hidden">
       <Header />
       
       <main>

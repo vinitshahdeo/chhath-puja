@@ -130,7 +130,7 @@ const BackgroundMusic = () => {
       />
 
       {/* Floating music controls */}
-      <div className="fixed bottom-6 right-6 z-50 bg-white/90 backdrop-blur-sm rounded-full shadow-lg border border-marigold-200 p-3">
+      <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 bg-white/90 backdrop-blur-sm rounded-full shadow-lg border border-marigold-200 p-3">
         <div className="flex items-center space-x-2">
           {/* Play/Pause button */}
           <button
@@ -187,10 +187,11 @@ const BackgroundMusic = () => {
 
       {/* Interaction hint for first-time users */}
       {!hasInteracted && !audioError && (
-        <div className="fixed bottom-20 right-6 z-40 bg-marigold-500 text-white px-3 py-2 rounded-lg shadow-lg text-sm animate-bounce">
+        <div className="fixed bottom-16 right-4 sm:bottom-20 sm:right-6 z-40 bg-marigold-500 text-white px-3 py-2 rounded-lg shadow-lg text-xs sm:text-sm animate-bounce max-w-xs">
           <div className="flex items-center space-x-2">
             <span>🎵</span>
-            <span>Click anywhere to start music</span>
+            <span className="hidden sm:inline">Click anywhere to start music</span>
+            <span className="sm:hidden">Tap to play</span>
           </div>
           <div className="absolute bottom-0 right-4 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-marigold-500 transform translate-y-full"></div>
         </div>
@@ -198,7 +199,7 @@ const BackgroundMusic = () => {
 
       {/* Debug message when audio file is missing */}
       {audioError && (
-        <div className="fixed bottom-20 right-6 z-40 bg-red-500 text-white px-3 py-2 rounded-lg shadow-lg text-xs">
+        <div className="fixed bottom-16 right-4 sm:bottom-20 sm:right-6 z-40 bg-red-500 text-white px-3 py-2 rounded-lg shadow-lg text-xs max-w-xs">
           <div className="flex items-center space-x-2">
             <span>⚠️</span>
             <span>Add tune.mp3 to public folder for music</span>
