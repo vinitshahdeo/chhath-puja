@@ -24,10 +24,12 @@ const Header = () => {
               Events
             </a>
             <a 
-              href="#about" 
+              href="https://forms.gle/RDoXHfEvTTwQRpin7" 
+              target="_blank" 
+              rel="noopener noreferrer"
               className="text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
             >
-              About
+              Submit Event
             </a>
           </nav>
         </div>
