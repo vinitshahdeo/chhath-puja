@@ -6,7 +6,7 @@ A responsive, mobile-first website that helps the community find [Chhath Puja](h
 
 👉 **[Submit Your Celebration](https://forms.gle/RDoXHfEvTTwQRpin7)**
 
-![Chhath Puja Bengaluru](https://img.shields.io/badge/Festival-Chhath%20Puja-orange) ![Tech Stack](https://img.shields.io/badge/Tech-React%20%7C%20Vite%20%7C%20Tailwind-blue) ![Mobile First](https://img.shields.io/badge/Design-Mobile%20First-green)
+![Chhath Puja Bengaluru](https://img.shields.io/badge/Festival-Chhath%20Puja-orange) ![Tech Stack](https://img.shields.io/badge/Tech-React%20%7C%20Vite%20%7C%20Tailwind-blue) ![Mobile First](https://img.shields.io/badge/Design-Mobile%20First-green) [![Netlify Status](https://api.netlify.com/api/v1/badges/852d3117-19cc-4f42-8d1f-d777f9eac5f6/deploy-status)](https://app.netlify.com/projects/chhath-puja/deploys)
 
 ## A Call From Home
 
