@@ -46,7 +46,7 @@ const Footer = () => {
               Important Timings
             </h3>
             <div className="space-y-4 text-sm">
-              <p className="text-gray-600 text-xs">Four sacred days of devotion, from October 25-28, 2025</p>
+              <p className="text-gray-600 text-sm">Four sacred days of devotion, from October 25-28, 2025</p>
               <div className="flex items-start space-x-3 pb-2 border-b border-gray-200">
                 <Sunset className="h-4 w-4 text-orange-500" />
                 <div>
