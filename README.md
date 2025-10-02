@@ -12,6 +12,14 @@ A responsive, mobile-first website that helps the community find [Chhath Puja](h
 
 This is dedicated for all of us far from home in Bengaluru—a bittersweet reminder of devotion, family bonds, the comfort of [Sharda Sinha’s songs](https://youtu.be/6DePUrUWtmE?list=RD6DePUrUWtmE&t=57), and the deep-rooted traditions that bind us. Just show up at the Ghat, let the echoes of “[Ugha He Suruj Dev](https://youtu.be/6e6Hp6R5SVU?list=RD6e6Hp6R5SVU&t=47)” feel like home, and savor the taste of Thekua. This is where we find our roots and each other, even thousands of miles away.
 
+**Community Guidelines**:
+- Always verify event details with organizers
+- Respect local customs and venue rules
+- Help maintain accuracy of information
+- Spread joy and devotion in celebrations
+
+Built with ❤️ for the Chhath Puja community in Bengaluru. 
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -76,21 +84,13 @@ Thank you for helping us bring a piece of home to the city for all of us who cou
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Community
-
-Built with ❤️ for the Chhath Puja community in Bengaluru. 
-
-**Community Guidelines**:
-- Always verify event details with organizers
-- Respect local customs and venue rules
-- Help maintain accuracy of information
-- Spread joy and devotion in celebrations
-
----
 <div align="center">
+<br/><br/>
+🙏🌅🙏
+<br/>
 
-Crafted with love in Bengaluru—by <a href="https://vinitshahdeo.com/">Vinit Shahdeo</a>, with blessings. 🌅
+Crafted with love in Bengaluru—by <a href="https://vinitshahdeo.com/">Vinit Shahdeo</a>, with blessings.
 
-<strong>Happy Chhath Puja!</strong> 🙏
+<strong>Happy Chhath Puja!</strong>
 
 </div>
