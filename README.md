@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="og" src="https://github.com/user-attachments/assets/abf0ffad-a538-4020-8a6a-1e2977ea3d61" />
+<img width="1536" height="1024" alt="chhath-puja-in-bengaluru" src="https://github.com/user-attachments/assets/c6bfaea0-ed10-4277-b096-637c570d58c2" />
 
 # छठ पूजा (Chhath Puja) in Bengaluru 🌅
 
