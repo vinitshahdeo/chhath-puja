@@ -18,7 +18,7 @@ const EventCard = ({ event }) => {
   const isPast = event.date < new Date() && !isToday
 
   return (
-    <article className="bg-white rounded-2xl card-shadow hover:card-shadow-hover transition-all duration-300 overflow-hidden group">
+    <article className="bg-white rounded-2xl card-shadow hover:card-shadow-hover transition-all duration-300 overflow-hidden group flex flex-col">
       {/* Header with gradient */}
       <div className="bg-gradient-to-r from-marigold-50 to-saffron-50 p-4 pb-2">
         <div className="flex items-start justify-between mb-2">
@@ -55,8 +55,8 @@ const EventCard = ({ event }) => {
       </div>
 
       {/* Main content */}
-      <div className="p-4 pt-2">
-        <div className="space-y-3">
+      <div className="p-4 pt-2 flex-1 flex flex-col">
+        <div className="space-y-3 flex-1">
           {/* Venue and address */}
           <div className="flex items-start space-x-2">
             <MapPin className="h-4 w-4 text-teal-500 mt-0.5 flex-shrink-0" />
@@ -130,7 +130,7 @@ const EventCard = ({ event }) => {
         </div>
       </div>
 
-      {/* Decorative bottom border */}
+      {/* Decorative bottom border - positioned at absolute bottom */}
       <div className="h-1 bg-gradient-to-r from-marigold-200 via-saffron-200 to-teal-200"></div>
     </article>
   )
