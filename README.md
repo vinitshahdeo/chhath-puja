@@ -87,7 +87,10 @@ Built with ❤️ for the Chhath Puja community in Bengaluru.
 - Spread joy and devotion in celebrations
 
 ---
+<div align="center">
 
-*Made by the community, for the community* 🌅
+Crafted with love in Bengaluru—by <a href="https://vinitshahdeo.com/">Vinit Shahdeo</a>, with blessings. 🌅
 
-**Happy Chhath Puja!** 🙏
+<strong>Happy Chhath Puja!</strong> 🙏
+
+</div>
