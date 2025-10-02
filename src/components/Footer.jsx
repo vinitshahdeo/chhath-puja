@@ -61,7 +61,7 @@ const Footer = () => {
                   <p className="text-gray-600 text-xs">Tuesday, Oct 28 • 6:00-6:30 AM</p>
                 </div>
               </div>
-              <p className="text-xs text-gray-500 italic pt-2 border-t border-gray-100">*Confirm timings with local organizers</p>
+              <p className="text-xs text-gray-500 italic pt-2 border-t border-gray-100">*Confirm exact timings with local organizers</p>
             </div>
           </div>
 
