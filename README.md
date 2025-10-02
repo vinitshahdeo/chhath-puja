@@ -12,7 +12,16 @@ A responsive, mobile-first website that helps the community find [Chhath Puja](h
 
 This is dedicated for all of us far from home in Bengaluru—a bittersweet reminder of devotion, family bonds, the comfort of [Sharda Sinha’s songs](https://youtu.be/6DePUrUWtmE?list=RD6DePUrUWtmE&t=57), and the deep-rooted traditions that bind us. Just show up at the Ghat, let the echoes of “[Ugha He Suruj Dev](https://youtu.be/6e6Hp6R5SVU?list=RD6e6Hp6R5SVU&t=47)” feel like home, and savor the taste of Thekua. This is where we find our roots and each other, even thousands of miles away.
 
-**Community Guidelines**:
+### Chhath Puja 2025 Dates
+
+| Day | Ritual Name | Date |
+| :--- | :--- | :--- |
+| **Day 1** | **Nahay Khay** | Saturday, October 25, 2025 |
+| **Day 2** | **Kharna** | Sunday, October 26, 2025 |
+| **Day 3** | **Sandhya Arghya** (Evening Offering to the Setting Sun) | **Monday, October 27, 2025** |
+| **Day 4** | **Usha Arghya** (Morning Offering to the Rising Sun) & Parana | **Tuesday, October 28, 2025** |
+
+### Community Guidelines
 - Always verify event details with organizers
 - Respect local customs and venue rules
 - Help maintain accuracy of information
