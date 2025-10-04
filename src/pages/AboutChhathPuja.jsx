@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Sun, Moon, Waves, Heart, Users, Calendar, Clock, Star, Flower, ArrowLeft } from 'lucide-react'
+import { Sun, Moon, Waves, Heart, Users, Calendar, Clock, Star, Flower, ArrowLeft, Droplets, Sunrise, Sunset } from 'lucide-react'
 
 const AboutChhathPuja = () => {
   const [activeSection, setActiveSection] = useState(0)
@@ -225,11 +225,153 @@ const AboutChhathPuja = () => {
         </div>
       </section>
 
+      {/* Chhath Puja 2025 Dates */}
+      <section 
+        id="dates-2025" 
+        data-section
+        className={`py-16 bg-gradient-to-r from-sunrise-50 to-saffron-50 transition-all duration-1000 ${isVisible['dates-2025'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-display font-bold text-gray-900 mb-4">
+              <span className="text-marigold-600">छठ पूजा</span> 2025 Dates
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Mark your calendar for the four sacred days of devotion
+            </p>
+            <div className="w-24 h-1 bg-gradient-to-r from-marigold-400 to-saffron-400 mx-auto mt-4 rounded-full"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            {[
+              {
+                day: 1,
+                ritual: 'Nahay Khay',
+                date: 'October 25, 2025',
+                weekday: 'Saturday',
+                description: 'Holy bath and preparation',
+                icon: Droplets,
+                color: 'from-teal-400 to-blue-500'
+              },
+              {
+                day: 2,
+                ritual: 'Kharna',
+                date: 'October 26, 2025',
+                weekday: 'Sunday',
+                description: 'Fasting and evening prayer',
+                icon: Heart,
+                color: 'from-marigold-400 to-orange-500'
+              },
+              {
+                day: 3,
+                ritual: 'Sandhya Arghya',
+                date: 'October 27, 2025',
+                weekday: 'Monday',
+                description: 'Evening offering to setting sun',
+                icon: Sunset,
+                color: 'from-saffron-400 to-red-500'
+              },
+              {
+                day: 4,
+                ritual: 'Usha Arghya & Parana',
+                date: 'October 28, 2025',
+                weekday: 'Tuesday',
+                description: 'Morning offering & breaking fast',
+                icon: Sunrise,
+                color: 'from-sunrise-400 to-yellow-500'
+              }
+            ].map((item, index) => {
+              const IconComponent = item.icon
+              return (
+                <div 
+                  key={item.day}
+                  className={`group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 ${isVisible['dates-2025'] ? 'animate-fade-in' : ''}`}
+                  style={{animationDelay: `${index * 150}ms`}}
+                >
+                  {/* Day badge */}
+                  <div className="absolute -top-3 left-4 bg-marigold-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                    Day {item.day}
+                  </div>
+                  
+                  {/* Icon with gradient background */}
+                  <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${item.color} flex items-center justify-center mb-4 mx-auto shadow-lg group-hover:animate-pulse`}>
+                    <IconComponent className="h-8 w-8 text-white" />
+                  </div>
+                
+                {/* Content */}
+                <div className="text-center">
+                  <h3 className="font-display font-bold text-lg text-gray-900 mb-2">
+                    {item.ritual}
+                  </h3>
+                  
+                  <div className="mb-3">
+                    <p className="text-sm font-semibold text-marigold-600">
+                      {item.weekday}
+                    </p>
+                    <p className="text-lg font-bold text-gray-800">
+                      {item.date}
+                    </p>
+                  </div>
+                  
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
+              </div>
+              )
+            })}
+          </div>
+
+          {/* Important Timings */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-marigold-100 max-w-4xl mx-auto">
+            <div className="text-center mb-6">
+              <div className="flex items-center justify-center space-x-2 mb-3">
+                <Clock className="h-6 w-6 text-marigold-500 animate-pulse" />
+                <Sun className="h-6 w-6 text-saffron-500 animate-pulse" style={{animationDelay: '0.5s'}} />
+              </div>
+              <h3 className="font-display font-semibold text-xl text-gray-900">
+                Important Timings
+              </h3>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+              <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-xl p-6 border border-orange-200">
+                <div className="flex items-center justify-center space-x-2 mb-3">
+                  <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
+                    <Sun className="h-5 w-5 text-white" />
+                  </div>
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Sandhya Arghya</h4>
+                <p className="text-lg font-bold text-orange-600 mb-1">5:30 - 6:00 PM</p>
+                <p className="text-sm text-gray-600">Evening offering to setting sun</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-6 border border-yellow-200">
+                <div className="flex items-center justify-center space-x-2 mb-3">
+                  <div className="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center">
+                    <Star className="h-5 w-5 text-white" />
+                  </div>
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Usha Arghya</h4>
+                <p className="text-lg font-bold text-yellow-600 mb-1">6:00 - 6:30 AM</p>
+                <p className="text-sm text-gray-600">Dawn offering to rising sun</p>
+              </div>
+            </div>
+            
+            <div className="mt-6 text-center">
+              <p className="text-sm text-gray-500">
+                <strong>Note:</strong> Exact timings may vary by location. Please confirm with local organizers for precise sunrise/sunset times in your area.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Traditions Section */}
       <section 
         id="traditions" 
         data-section
-        className={`py-16 transition-all duration-1000 ${isVisible['traditions'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+        className={`py-16 bg-white transition-all duration-1000 ${isVisible['traditions'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
