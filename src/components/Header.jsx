@@ -32,6 +32,12 @@ const Header = () => {
             >
               About Chhath Puja
             </button>
+            <button 
+              onClick={() => window.app?.setCurrentPage?.('songs')}
+              className="text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
+            >
+              Chhath Songs
+            </button>
             <a 
               href="https://forms.gle/RDoXHfEvTTwQRpin7" 
               target="_blank" 
@@ -83,7 +89,16 @@ const Header = () => {
                 }}
                 className="block w-full text-left py-2 text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
               >
-                About छठ पूजा
+                About Chhath Puja
+              </button>
+              <button 
+                onClick={() => {
+                  window.app?.setCurrentPage?.('songs')
+                  setMobileMenuOpen(false)
+                }}
+                className="block w-full text-left py-2 text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
+              >
+                Chhath Songs
               </button>
               <a 
                 href="https://forms.gle/RDoXHfEvTTwQRpin7" 

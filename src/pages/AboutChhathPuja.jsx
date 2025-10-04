@@ -465,13 +465,22 @@ const AboutChhathPuja = () => {
             Join the vibrant Chhath Puja celebrations across Bengaluru and connect with your roots, 
             even when you're far from home. Find a community celebration near you.
           </p>
-          <button 
-            onClick={() => window.app?.setCurrentPage?.('home')}
-            className="inline-flex items-center space-x-2 px-8 py-3 bg-marigold-500 hover:bg-marigold-600 text-white font-semibold rounded-lg transition-colors duration-200 transform hover:scale-105"
-          >
-            <Calendar className="h-5 w-5" />
-            <span>Find Celebrations Near You</span>
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button 
+              onClick={() => window.app?.setCurrentPage?.('home')}
+              className="inline-flex items-center space-x-2 px-8 py-3 bg-marigold-500 hover:bg-marigold-600 text-white font-semibold rounded-lg transition-colors duration-200 transform hover:scale-105"
+            >
+              <Calendar className="h-5 w-5" />
+              <span>Find Celebrations Near You</span>
+            </button>
+            <button 
+              onClick={() => window.app?.setCurrentPage?.('songs')}
+              className="inline-flex items-center space-x-2 px-8 py-3 bg-white hover:bg-gray-50 text-marigold-600 font-semibold rounded-lg border-2 border-marigold-500 transition-colors duration-200 transform hover:scale-105"
+            >
+              <Heart className="h-5 w-5" />
+              <span>Listen to Chhath Songs</span>
+            </button>
+          </div>
         </div>
       </section>
     </div>

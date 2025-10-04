@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import EmptyState from './components/EmptyState'
 import BackgroundMusic from './components/BackgroundMusic'
 import AboutChhathPuja from './pages/AboutChhathPuja'
+import ShardaSinhaSongs from './pages/ShardaSinhaSongs'
 import { generateEventJsonLd } from './utils/jsonLd'
 
 function App() {
@@ -185,6 +186,14 @@ function App() {
     return (
       <div className="min-h-screen">
         <AboutChhathPuja />
+      </div>
+    )
+  }
+
+  if (currentPage === 'songs') {
+    return (
+      <div className="min-h-screen">
+        <ShardaSinhaSongs />
       </div>
     )
   }
