@@ -141,7 +141,7 @@ const ShardaSinhaSongs = () => {
                   Her voice has the power to transport listeners to the ghats of Bihar, where devotees stand in holy waters, 
                   offering prayers to the Sun God with hearts full of faith.
                 </p>
-                <p className='text-sm text-gray-500 mb-6'>
+                <p className='text-lg text-gray-500 mb-6'>
                     This page is dedicated to her timeless contributions to Chhath Puja music. 
                 </p>
                 
