@@ -9,15 +9,25 @@ import CommunityConnect from './components/CommunityConnect'
 import Footer from './components/Footer'
 import EmptyState from './components/EmptyState'
 import BackgroundMusic from './components/BackgroundMusic'
+import AboutChhathPuja from './pages/AboutChhathPuja'
 import { generateEventJsonLd } from './utils/jsonLd'
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('home')
   const [events, setEvents] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedAreas, setSelectedAreas] = useState([])
   const [urlParams, setUrlParams] = useState(new URLSearchParams())
+
+  // Make navigation available globally for components
+  useEffect(() => {
+    window.app = { setCurrentPage }
+    return () => {
+      delete window.app
+    }
+  }, [setCurrentPage])
 
   // Load events from CSV
   useEffect(() => {
@@ -166,6 +176,15 @@ function App() {
             Try Again
           </button>
         </div>
+      </div>
+    )
+  }
+
+  // Render different pages based on current page state
+  if (currentPage === 'about') {
+    return (
+      <div className="min-h-screen">
+        <AboutChhathPuja />
       </div>
     )
   }
