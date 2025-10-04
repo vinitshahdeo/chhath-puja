@@ -30,7 +30,7 @@ const Header = () => {
               onClick={() => window.app?.setCurrentPage?.('about')}
               className="text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
             >
-              About छठ पूजा
+              About Chhath Puja
             </button>
             <a 
               href="https://forms.gle/RDoXHfEvTTwQRpin7" 
@@ -38,7 +38,15 @@ const Header = () => {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
             >
-              Submit Event
+              Add Event
+            </a>
+            <a 
+              href="https://forms.gle/UAVTiY8ewEy4cXcn8" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
+            >
+              Submit Community
             </a>
           </nav>
 
@@ -85,6 +93,15 @@ const Header = () => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Submit Event
+              </a>
+              <a 
+                href="https://chat.whatsapp.com/IzpKJTmbMoH6XMUhxYa8bj" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block py-2 text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Join Community
               </a>
             </nav>
           </div>
