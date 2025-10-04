@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Music, Play, Heart, Star, ArrowLeft, Volume2, Headphones, Users, Award } from 'lucide-react'
+import { Music, Play, Heart, Star, ArrowLeft, Volume2, Headphones, Users, Award, Leaf, Sun, Sparkles, TreePine } from 'lucide-react'
 
 const ShardaSinhaSongs = () => {
   const [isVisible, setIsVisible] = useState({})
@@ -137,7 +137,7 @@ const ShardaSinhaSongs = () => {
                   Born in Bihar, she dedicated her life to preserving and promoting Maithili and Bhojpuri folk music. 
                   Her songs during Chhath Puja create an atmosphere of pure devotion and spiritual connection.
                 </p>
-                <p className="text-marigold-700 font-semibold">
+                <p className="text-marigold-600 font-semibold">
                   Her voice has the power to transport listeners to the ghats of Bihar, where devotees stand in holy waters, 
                   offering prayers to the Sun God with hearts full of faith.
                 </p>
@@ -344,46 +344,48 @@ const ShardaSinhaSongs = () => {
                   title: "Ho Deenanath",
                   url: "https://youtu.be/fOVGz9WFymU?list=RDfOVGz9WFymU",
                   views: "52M+ views",
-                  thumbnail: "🎵"
+                  thumbnail: Music
                 },
                 {
                   title: "Kelwa Ke Paat Par",
                   url: "https://youtu.be/-mpGoG0nWPo?list=RD-mpGoG0nWPo",
                   views: "39M+ views", 
-                  thumbnail: "🌿"
+                  thumbnail: Leaf
                 },
                 {
                   title: "Uga He Suraj Dev",
                   url: "https://youtu.be/6e6Hp6R5SVU?list=RD6e6Hp6R5SVU",
                   views: "260M+ views",
-                  thumbnail: "🙏"
+                  thumbnail: Heart
                 },
                 {
                   title: "Kath ke Kothirya Ho Dinanaath",
                   url: "https://youtu.be/X6NUpqLF_Ww?list=RDX6NUpqLF_Ww", // Replace with actual URL
                   views: "3M+ views",
-                  thumbnail: "🌞"
+                  thumbnail: Sun
                 },
                 {
                   title: "Kaanch Hi Baans Ke Bahangiya",
                   url: "https://youtu.be/Eyq7vfxu4iA?list=RDEyq7vfxu4iA",
                   views: "75M+ views",
-                  thumbnail: "🎋"
+                  thumbnail: TreePine
                 },
                 {
                   title: "Chhathi Maiya Aayi Na Dulari",
                   url: "https://youtu.be/CeIFoKoGszY?list=RDCeIFoKoGszY", // Replace with actual URL
                   views: "35M+ views",
-                  thumbnail: "✨"
+                  thumbnail: Sparkles
                 }
-              ].map((video, index) => (
+              ].map((video, index) => {
+                const ThumbnailIcon = video.thumbnail
+                return (
                 <div 
                   key={index}
                   className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group touch-manipulation"
                 >
                   <div className="text-center mb-4">
-                    <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-marigold-400 to-saffron-500 rounded-full flex items-center justify-center mx-auto text-xl sm:text-2xl mb-3 group-hover:animate-pulse">
-                      {video.thumbnail}
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-marigold-400 to-saffron-500 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:animate-pulse">
+                      <ThumbnailIcon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
                     </div>
                     <h4 className="font-semibold text-base sm:text-lg text-gray-900 mb-2 line-clamp-2">{video.title}</h4>
                     <p className="text-xs sm:text-sm text-gray-500 mb-4">{video.views}</p>
@@ -401,7 +403,8 @@ const ShardaSinhaSongs = () => {
                     </div>
                   </a>
                 </div>
-              ))}
+                )
+              })}
             </div>
           </div>
 

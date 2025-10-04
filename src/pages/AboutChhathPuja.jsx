@@ -145,7 +145,7 @@ const AboutChhathPuja = () => {
                   Eastern Uttar Pradesh, and Nepal. The word "Chhath" means "six" in Hindi, referring to the 
                   sixth day of the lunar month when the festival begins.
                 </p>
-                <p className="text-marigold-700 font-semibold">
+                <p className="text-marigold-600 font-semibold">
                   It's not just a festival—it's a spiritual journey that connects devotees with the cosmic energies 
                   of the sun, promoting physical purification and mental peace.
                 </p>
