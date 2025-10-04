@@ -30,11 +30,11 @@ const EventCard = ({ event }) => {
               <p className="text-sm font-medium text-marigold-600 bg-marigold-100 px-2 py-1 rounded-full">
                 {event.area}
               </p>
-              {event.verified && (
+              {event.verified === true || event.verified === 'true' ? (
                 <span className="text-xs font-medium text-green-700 bg-green-100 px-2 py-1 rounded-full">
                   Verified
                 </span>
-              )}
+              ) : null}
             </div>
           </div>
           {isToday && (
