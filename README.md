@@ -2,6 +2,8 @@
 
 # छठ पूजा (Chhath Puja) in Bengaluru 🌅
 
+[thechhathpuja.com](http://thechhathpuja.com/) | [chhath-puja.netlify.app](https://chhath-puja.netlify.app/)
+
 A responsive, mobile-first website that helps the community find [Chhath Puja](https://artsandculture.google.com/story/how-chhath-puja-is-celebrated-samoolam/9QXxQ8xSNXhwjw?hl=en) celebrations across Bengaluru. Built with festive aesthetics featuring sunrise gradients, marigold colors, and traditional motifs.
 
 👉 **[Submit Your Celebration](https://forms.gle/RDoXHfEvTTwQRpin7)**
