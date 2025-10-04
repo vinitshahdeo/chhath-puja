@@ -21,7 +21,14 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6" role="navigation" aria-label="Main navigation">
             <button 
-              onClick={() => window.app?.setCurrentPage?.('home')}
+              onClick={() => {
+                // If already on home page, scroll to events section
+                if (window.location.pathname === '/' && document.querySelector('#events')) {
+                  document.querySelector('#events').scrollIntoView({ behavior: 'smooth' });
+                } else {
+                  window.app?.setCurrentPage?.('home');
+                }
+              }}
               className="text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
             >
               Events
@@ -75,7 +82,12 @@ const Header = () => {
             <nav className="px-4 py-4 space-y-3" role="navigation" aria-label="Mobile navigation">
               <button 
                 onClick={() => {
-                  window.app?.setCurrentPage?.('home')
+                  // If already on home page, scroll to events section
+                  if (window.location.pathname === '/' && document.querySelector('#events')) {
+                    document.querySelector('#events').scrollIntoView({ behavior: 'smooth' });
+                  } else {
+                    window.app?.setCurrentPage?.('home');
+                  }
                   setMobileMenuOpen(false)
                 }}
                 className="block w-full text-left py-2 text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
