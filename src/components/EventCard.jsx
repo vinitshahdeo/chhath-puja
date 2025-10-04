@@ -26,9 +26,16 @@ const EventCard = ({ event }) => {
             <h3 className="font-display font-semibold text-lg text-gray-900 text-clamp-2 mb-1">
               {event.name}
             </h3>
-            <p className="text-sm font-medium text-marigold-600 bg-marigold-100 px-2 py-1 rounded-full inline-block">
-              {event.area}
-            </p>
+            <div className="flex items-center gap-2 mb-1">
+              <p className="text-sm font-medium text-marigold-600 bg-marigold-100 px-2 py-1 rounded-full">
+                {event.area}
+              </p>
+              {event.verified && (
+                <span className="text-xs font-medium text-green-700 bg-green-100 px-2 py-1 rounded-full">
+                  Verified
+                </span>
+              )}
+            </div>
           </div>
           {isToday && (
             <span className="bg-green-100 text-green-800 text-xs font-medium px-2 py-1 rounded-full ml-2 whitespace-nowrap">

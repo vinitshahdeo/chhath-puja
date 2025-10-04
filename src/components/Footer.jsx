@@ -44,7 +44,7 @@ const Footer = () => {
 
               <div className="mt-4">
                 <div className="group relative inline-flex items-center space-x-2 px-3 py-1.5 bg-marigold-500 hover:bg-marigold-600 text-white text-xs rounded-full transition-colors duration-200">
-                  <Clock className="h-4 w-4" />
+                  <Clock className="h-4 w-4 animate-spin" style={{ animationDuration: '60s' }} />
                   <CountdownTimer />
                   <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none z-50">
                     <span className="hidden sm:inline">Chhath Puja begins October 25, 2025</span>

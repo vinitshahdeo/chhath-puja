@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Instagram, Users, Heart } from 'lucide-react';
+import { MessageCircle, Instagram, Users, Heart, Facebook } from 'lucide-react';
 
 const CommunityConnect = () => {
   const communities = [
@@ -18,10 +18,18 @@ const CommunityConnect = () => {
     },
     {
       name: "Mithila Chhath Puja Samiti",
-      whatsapp: null,
+      whatsapp: "https://chat.whatsapp.com/JiOF4sGRQXI3QKLBa0vUxE",
       instagram: "https://www.instagram.com/mithilachhathpujasamiti/",
       instagramHandle: "@mithilachhathpujasamiti",
       members: "300+"
+    },
+    {
+      name: "Chhath Puja - Art of Living",
+      whatsapp: null,
+      facebook: "https://www.facebook.com/people/Chhath-Puja-at-the-Art-of-Living-Bangalore/61564832832879/",
+      instagram: "https://www.instagram.com/chhathartoflivingblr",
+      instagramHandle: "@chhathartoflivingblr",
+      members: "200+"
     }
   ];
 
@@ -37,7 +45,7 @@ const CommunityConnect = () => {
             Stay Connected with Your Community
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Join WhatsApp groups and follow Instagram pages of various communities 
+            Join WhatsApp groups, follow Instagram pages, and connect on Facebook with various communities 
             in Bengaluru for real-time updates, event announcements, and to connect 
             with fellow devotees.
           </p>
@@ -93,8 +101,25 @@ const CommunityConnect = () => {
                     </a>
                   )}
 
-                  {/* Show placeholder if community has neither */}
-                  {!community.whatsapp && !community.instagram && (
+                  {/* Facebook Button - Show only if community has Facebook */}
+                  {community.facebook && (
+                    <a
+                      href={community.facebook}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full group relative inline-flex items-center justify-center space-x-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                      aria-label={`Follow ${community.name} on Facebook`}
+                    >
+                      <Facebook className="h-4 w-4" />
+                      <span>Follow Facebook</span>
+                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none">
+                        Follow page for updates
+                      </div>
+                    </a>
+                  )}
+
+                  {/* Show placeholder if community has no social channels */}
+                  {!community.whatsapp && !community.instagram && !community.facebook && (
                     <div className="w-full px-4 py-2.5 bg-gray-100 text-gray-500 text-sm font-medium rounded-lg text-center">
                       Channels coming soon
                     </div>
