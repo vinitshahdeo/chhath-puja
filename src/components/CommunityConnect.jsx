@@ -25,7 +25,7 @@ const CommunityConnect = () => {
     },
     {
       name: "Chhath Puja - Art of Living",
-      whatsapp: null,
+      whatsapp: "https://chat.whatsapp.com/EibVVygIZzeLa1y3n5TGhv",
       facebook: "https://www.facebook.com/people/Chhath-Puja-at-the-Art-of-Living-Bangalore/61564832832879/",
       instagram: "https://www.instagram.com/chhathartoflivingblr",
       instagramHandle: "@chhathartoflivingblr",
