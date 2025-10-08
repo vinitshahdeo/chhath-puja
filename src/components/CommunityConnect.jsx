@@ -29,7 +29,7 @@ const CommunityConnect = () => {
       facebook: "https://www.facebook.com/people/Chhath-Puja-at-the-Art-of-Living-Bangalore/61564832832879/",
       instagram: "https://www.instagram.com/chhathartoflivingblr",
       instagramHandle: "@chhathartoflivingblr",
-      members: "200+"
+      members: "1K+"
     }
   ];
 
