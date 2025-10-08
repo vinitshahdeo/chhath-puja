@@ -11,7 +11,7 @@ const CommunityConnect = () => {
     },
     {
       name: "Chhath Puja Association - GM ECity",
-      whatsapp: null, 
+      whatsapp: "https://chat.whatsapp.com/GIMpOTzFELOAre7kHhk6Ou", 
       instagram: "https://www.instagram.com/gmiet_chathpuja/",
       instagramHandle: "@gmiet_chathpuja",
       members: "600+"
