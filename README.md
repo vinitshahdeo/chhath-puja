@@ -23,6 +23,9 @@ This is dedicated for all of us far from home in Bengaluru—a bittersweet remin
 | **Day 3** | **Sandhya Arghya** (Evening Offering to the Setting Sun) | **Monday, October 27, 2025** |
 | **Day 4** | **Usha Arghya** (Morning Offering to the Rising Sun) & Parana | **Tuesday, October 28, 2025** |
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/053dbedc-a18f-4c1d-9798-8530369e1883" />
+
+
 ### Community Guidelines
 - Always verify event details with organizers
 - Respect local customs and venue rules
