@@ -5,7 +5,7 @@ const CommunityConnect = () => {
   const communities = [
     {
       name: "Bihar Parivar",
-      whatsapp: "https://chat.whatsapp.com/bihar-parivar-community",
+      whatsapp: "https://chat.whatsapp.com/KERwXuHZw9fFsEYGJLKQTk",
       instagram: null,
       members: "1K+"
     },
