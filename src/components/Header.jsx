@@ -119,16 +119,16 @@ const Header = () => {
                 className="block py-2 text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Submit Event
+                Add Event
               </a>
               <a 
-                href="https://chat.whatsapp.com/IzpKJTmbMoH6XMUhxYa8bj" 
+                href="https://forms.gle/UAVTiY8ewEy4cXcn8" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block py-2 text-gray-600 hover:text-marigold-600 transition-colors duration-200 font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Join Community
+                Submit Community
               </a>
             </nav>
           </div>
