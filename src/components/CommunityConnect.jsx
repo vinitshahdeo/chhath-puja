@@ -18,7 +18,7 @@ const CommunityConnect = () => {
     },
     {
       name: "Mithila Chhath Puja Samiti",
-      whatsapp: "https://chat.whatsapp.com/JiOF4sGRQXI3QKLBa0vUxE",
+      whatsapp: "https://chat.whatsapp.com/FJROZfH3bDuFJO6xGVfbRu",
       instagram: "https://www.instagram.com/mithilachhathpujasamiti/",
       instagramHandle: "@mithilachhathpujasamiti",
       members: "300+"
