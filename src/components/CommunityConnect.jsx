@@ -30,6 +30,14 @@ const CommunityConnect = () => {
       instagram: "https://www.instagram.com/chhathartoflivingblr",
       instagramHandle: "@chhathartoflivingblr",
       members: "1K+"
+    },
+    {
+      name: "Bihar Samaj",
+      whatsapp: "https://chat.whatsapp.com/LrSzyRCT4VDHQjhLHDsoyd",
+      facebook: "https://www.facebook.com/BiharSamajBengaluru",
+      instagram: "https://www.instagram.com/biharsamaj_bengaluru",
+      instagramHandle: "@biharsamaj_bengaluru",
+      members: "500+"
     }
   ];
 
