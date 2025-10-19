@@ -38,6 +38,21 @@ const CommunityConnect = () => {
       instagram: "https://www.instagram.com/biharsamaj_bengaluru",
       instagramHandle: "@biharsamaj_bengaluru",
       members: "500+"
+    },
+    {
+      name: "Chhath Puja Committee Malleshpalya",
+      facebook: "https://www.facebook.com/ChhathPujaCommitteeMalleshpalya",
+      members: "100+"
+    },
+    {
+      name: "Bhojpuri Samaj Seva Samiti Bangalore",
+      facebook: "https://www.facebook.com/BSSS.Bangalore/",
+      members: "1.2K+"
+    },
+    {
+      name: "Serenity Chhath Puja Samiti",
+      whatsapp: "https://chat.whatsapp.com/FMldIbnjIBg5AH93CvJco3",
+      members: "80+"
     }
   ];
 
