@@ -53,6 +53,12 @@ const CommunityConnect = () => {
       name: "Serenity Chhath Puja Samiti",
       whatsapp: "https://chat.whatsapp.com/FMldIbnjIBg5AH93CvJco3",
       members: "80+"
+    },
+    {
+      name: "SEG Chhath Puja Committee",
+      instagram: "https://www.instagram.com/seg_arghya",
+      instagramHandle: "@seg_arghya",
+      members: "150+"
     }
   ];
 
