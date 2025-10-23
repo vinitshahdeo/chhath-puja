@@ -55,9 +55,10 @@ const CommunityConnect = () => {
       members: "80+"
     },
     {
-      name: "SEG Chhath Puja Committee",
+      name: "ARGHYA Chhath Puja Committee, Whitefield",
       instagram: "https://www.instagram.com/seg_arghya",
       instagramHandle: "@seg_arghya",
+      facebook: "https://www.facebook.com/profile.php?id=61580870289534",
       members: "150+"
     }
   ];
