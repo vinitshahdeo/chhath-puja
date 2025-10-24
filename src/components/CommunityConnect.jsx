@@ -60,6 +60,16 @@ const CommunityConnect = () => {
       instagramHandle: "@seg_arghya",
       facebook: "https://www.facebook.com/profile.php?id=61580870289534",
       members: "150+"
+    },
+    {
+      name: "Bhartiya Chhath Puja Samithi",
+      members: "200+",
+      instagram: "https://www.instagram.com/bhartiyachhathpujasamiti/"
+    },
+    {
+      name: "Art of Living - Chhath Puja Volunteers",
+      members: "500+",
+      whatsapp: "https://chat.whatsapp.com/H4Axw72X2Gs0Pm0tRu6F0y"
     }
   ];
 
