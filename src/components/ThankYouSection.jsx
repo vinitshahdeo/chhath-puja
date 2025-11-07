@@ -48,7 +48,7 @@ const ThankYouSection = () => {
             </div> */}
             
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
-              Thank You for an Amazing <span className='text-marigold-600'>Chhath Puja</span>2025!
+              Thank You for an Amazing <span className='text-marigold-600'>छठ पूजा</span> 2025!
             </h2>
             
             <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
