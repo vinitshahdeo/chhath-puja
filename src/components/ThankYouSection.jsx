@@ -39,21 +39,25 @@ const ThankYouSection = () => {
         <div className="text-center">
           {/* Main thank you message */}
           <div className="mb-8">
-            <div className="flex items-center justify-center gap-4 mb-6">
+            {/* <div className="flex items-center justify-center gap-4 mb-6">
               <Heart className="h-8 w-8 text-marigold-600 animate-pulse" />
               <span className="font-display font-bold text-marigold-700 text-4xl sm:text-5xl">
                 धन्यवाद!
               </span>
               <Heart className="h-8 w-8 text-marigold-600 animate-pulse" />
-            </div>
+            </div> */}
             
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
-              Thank You for an Amazing Chhath Puja 2025!
+              Thank You for an Amazing <span className='text-marigold-600'>Chhath Puja</span>2025!
             </h2>
             
             <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Your participation made this celebration truly special. From every offering to Chhathi Maiya 
-              to the beautiful community gatherings across Bengaluru, we witnessed the power of faith and unity.
+              Together, we witnessed the power of faith and community across Bengaluru. 
+              May Chhathi Maiya's blessings continue to illuminate your path.
+            </p>
+            
+            <p className="text-sm text-gray-600 mt-4 max-w-2xl mx-auto">
+              Until we gather again for Chhath Puja 2026 🙏
             </p>
           </div>
 
