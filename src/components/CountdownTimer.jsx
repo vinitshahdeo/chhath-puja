@@ -11,7 +11,7 @@ const CountdownTimer = () => {
   useEffect(() => {
     // Chhath Puja 2025 starts on October 25, 2025 at 6:00 AM IST
     // Chhath Puja 2025 ends on October 28, 2025 at 9:00 AM IST
-    const targetDate = new Date('2025-10-28T09:00:00+05:30');
+    const targetDate = new Date('2026-11-15T09:00:00+05:30');
 
     const updateTimer = () => {
       const now = new Date();
@@ -40,7 +40,7 @@ const CountdownTimer = () => {
 
   return (
     <span className="font-medium text-xs">
-      Chhath Puja begins in <strong>{timeLeft.days}</strong>day <strong>{String(timeLeft.hours).padStart(2, '0')}</strong>:<strong>{String(timeLeft.minutes).padStart(2, '0')}</strong>:<strong>{String(timeLeft.seconds).padStart(2, '0')}</strong>
+      Chhath Puja 2026 begins in <strong>{timeLeft.days}</strong>day <strong>{String(timeLeft.hours).padStart(2, '0')}</strong>:<strong>{String(timeLeft.minutes).padStart(2, '0')}</strong>:<strong>{String(timeLeft.seconds).padStart(2, '0')}</strong>
     </span>
   );
 };
